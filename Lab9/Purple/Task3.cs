@@ -37,7 +37,6 @@ namespace Lab9.Purple
         private string[] FindRepeatable(string text, int n)
         {
             string[] result = new string[n];
-            //Знаками препинания считать: '.', '!', '?', ',', ':', '\"', ';', '–', '(', ')', '[', ']', '{', '}', '/'.
             char[] signs = { '.', '!', '?', ',', ':', '\"', ';', '–', '(', ')', '[', ']', '{', '}', '/' };
             string format = text;
             foreach (char el in signs)
